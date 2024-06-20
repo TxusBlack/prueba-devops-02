@@ -1,0 +1,18 @@
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./html/react/out:/var/www/html
+      - ./nginx/localhost.crt:/etc/nginx/certs/localhost.crt:ro
+      - ./nginx/localhost.key:/etc/nginx/certs/localhost.key:ro
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    restart: always
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
