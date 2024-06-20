@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "oIV70F7/FUMVI2HJnaCUH/EPA55ppkdWdAjTY2hw+9DZFhGy/Zi5rB0p5sAJpiKC66QIVv/0QoU6gg0TwrCrSA==",
+  "success": true,
+  "projectFilePath": "/home/ilab/Documents/Projects/challenge/dotnet-app/dotnet-app.csproj",
+  "expectedPackageFiles": [
+    "/home/ilab/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/home/ilab/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/home/ilab/.nuget/packages/stackexchange.redis/2.7.33/stackexchange.redis.2.7.33.nupkg.sha512",
+    "/home/ilab/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/home/ilab/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
+    "/home/ilab/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

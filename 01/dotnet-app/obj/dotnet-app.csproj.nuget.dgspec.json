@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ilab/Documents/Projects/challenge/dotnet-app/dotnet-app.csproj": {}
+  },
+  "projects": {
+    "/home/ilab/Documents/Projects/challenge/dotnet-app/dotnet-app.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ilab/Documents/Projects/challenge/dotnet-app/dotnet-app.csproj",
+        "projectName": "dotnet-app",
+        "projectPath": "/home/ilab/Documents/Projects/challenge/dotnet-app/dotnet-app.csproj",
+        "packagesPath": "/home/ilab/.nuget/packages/",
+        "outputPath": "/home/ilab/Documents/Projects/challenge/dotnet-app/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ilab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.426/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
